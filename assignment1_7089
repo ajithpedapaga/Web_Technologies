@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #I3 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+      <li id="I1">dytuhkj</li>
+      <li id="I2">dytuhkj</li>
+      <li id="I3">dytuhkj</li>
+      <li id="I4">dytuhkj</li>
+      <li id="I5">dytuhkj</li>
+      <li id="I6">dytuhkj</li>
+      <li id="I7">dytuhkj</li>
+      <li id="I8">dytuhkj</li>
+      <li id="I9">dytuhkj</li>
+      <li id="I10">dytuhkj</li>
+      <li id="I11">dytuhkj</li>
+      <li id="I12">dytuhkj</li>
+      <li id="I13">dytuhkj</li>
+      <li id="I14">dytuhkj</li>
+      <li id="I15">dytuhkj</li>
+      <li id="I16">dytuhkj</li>
+      <li id="I17">dytuhkj</li>
+      <li id="I18">dytuhkj</li>
+      <li id="I19">dytuhkj</li>
+      <li id="I20">dytuhkj</li>
+    </ol>
+  </body>
+</html>
+
+
+
+
+WT_1_2 :- 
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .I:nth-of-type(3),
+      .I:nth-of-type(4),
+      .I:nth-of-type(5) {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+      <li class="I">dytuhkj</li>
+    </ol>
+  </body>
+</html>
+
+
+WT_1_3:-
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a:nth-of-type(1) {
+        border: 2px solid wheat;
+        border-radius: 5px;
+        background-color: rgb(245, 219, 184);
+        color: white;
+        text-decoration: none;
+      }
+      a:nth-of-type(2) {
+        border: 2px solid rgb(245, 179, 197);
+        background-color: rgb(241, 111, 117);
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+      }
+      body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <a
+      href="https://www.google.com/search?q=google&rlz=1C1CHBF_enIN981IN981&oq=google&aqs=chrome..69i57j46i67i131i199i433i465j35i39j0i67i131i433l2j0i67j0i67i131i433j0i67j0i67i433.2782j0j15&sourceid=chrome&ie=UTF-8"
+      >google</a
+    >
+    <br />
+    <br />
+    <a href="https://www.youtube.com/watch?v=gQ5qVtoLMk4">youtube</a>
+  </body>
+</html>
+
+
+WT_1_4 :-
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      a:visited {
+        color: red;
+      }
+      a:link {
+        color: yellow;
+      }
+      a:hover {
+        color: orange;
+      }
+      a:active {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://www.youtube.com/watch?v=8uJ-wOljP_s"> youtube</a>
+  </body>
+</html>
+
+
+WT_1_5 :- 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p::first-letter {
+        font-size: 4em;
+        color: coral;
+      }
+      p::first-line {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(84, 187, 243);
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero
+      ipsam asperiores quam magnam ipsum dolorem aut ab nihil dicta, voluptates
+      earum dolore reprehenderit ut obcaecati, vel quas. Rerum, sunt? Voluptas,
+      possimus in. Eos, repellat. In suscipit non tenetur enim distinctio sunt
+      tempora reiciendis perferendis error. Tempore ex temporibus, quis
+      quibusdam deleniti nostrum recusandae reiciendis, est deserunt vel, error
+      alias! Asperiores itaque velit ipsum quam fugiat, similique dicta rerum
+      est? Labore fuga non aperiam veritatis, eum quas! Quis, consequatur
+      recusandae, unde ea ducimus nam aliquid voluptatum, harum necessitatibus
+      odit architecto! Qui cupiditate, non illo distinctio animi a laudantium
+      voluptatibus pariatur! Sapiente labore quasi, tempora sequi veritatis
+      aliquam rerum officia repudiandae doloribus itaque assumenda
+      exercitationem cumque dolor? Omnis, earum blanditiis! Consequatur!
+    </p>
+  </body>
+</html>
